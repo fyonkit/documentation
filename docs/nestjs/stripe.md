@@ -12,7 +12,7 @@ Before getting started, please make sure you have signed up on stripe and have a
 
 ## Connect
 
-In order to process payments in marketplace type of platforms, stripe introduced a product called [Stripe Connect](https://stripe.com/connect) which is what we are using in the kit. There are 3 different types of set up that you can use with stripe connect and your choice will depend on the type of UX you want to provide for your app's users. Our kit is compatible with the first to types, out of the box and for the remaining one, you can easily switch with [some small modifications](broken_link).
+In order to process payments in marketplace type of platforms, stripe introduced a product called [Stripe Connect](https://stripe.com/connect) which is what we are using in the kit. There are 3 different types of set up that you can use with stripe connect and your choice will depend on the type of UX you want to provide for your app's users. Our kit is compatible with the first to types, out of the box and for the remaining one, you can easily switch with [some small modifications](./stripe).
 
 ## High implementation summary
 In theory, out of the box, a user on our kit can be a seller and a buyer at the same time. So, at the time of registration, we don't link user accounts with stripe right away. Instead, we wait for the right moment to lazily integrate user accounts with stripe.
